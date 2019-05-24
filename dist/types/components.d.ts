@@ -5,8 +5,8 @@
  */
 
 
-import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
-import { JSX } from '@stencil/core';
+import { HTMLStencilElement, JSXBase } from './stencil.core';
+import { JSX } from './stencil.core';
 
 
 export namespace Components {
