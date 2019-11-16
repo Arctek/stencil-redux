@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Stencil Redux - A simple redux-connector for Stencil-built web components",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/esm/es5/index.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
@@ -26,8 +26,8 @@
     "url": "git+https://github.com/ionic-team/stencil-redux.git"
   },
   "devDependencies": {
-    "@stencil/core": "1.8.0",
-    "@types/jest": "^24.0.5",
+    "@stencil/core": "1.0.0-beta.1",
+    "@types/jest": "24.0.5",
     "@types/redux": "^3.6.0",
     "husky": "^2.1.0",
     "jest": "^24.1.0",
